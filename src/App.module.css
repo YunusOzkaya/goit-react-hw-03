@@ -1,0 +1,51 @@
+:global(html, body, #root) {
+  height: 100%;
+  min-height: 100vh;
+}
+
+:global(body) {
+  background: #232327;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 420px;
+  background: linear-gradient(160deg, #f8fbff 85%, #e9f0f8 100%);
+  border-radius: 16px;
+  box-shadow: 0 8px 40px 0 rgba(12,46,100,0.12);
+  border: 1px solid #e6ecf3;
+  padding: 36px 22px 32px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: #133a74;
+  letter-spacing: -2px;
+  text-align: center;
+  margin-bottom: 18px;
+  margin-top: 0;
+}
+
+@media (max-width: 520px) {
+  .container {
+    max-width: 99vw;
+    min-width: 0;
+    padding: 18px 3vw 18px 3vw;
+    border-radius: 0;
+  }
+}

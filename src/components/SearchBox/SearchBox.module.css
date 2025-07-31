@@ -1,0 +1,23 @@
+.searchbox {
+  margin-bottom: 22px;
+}
+.label {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #3a4b68;
+}
+.input {
+  margin-left: 8px;
+  padding: 8px 12px;
+  border: 1.5px solid #d4dbe8;
+  border-radius: 7px;
+  font-size: 1.01rem;
+  background: #f6f8fc;
+  color: #232f45;
+  outline: none;
+  transition: border 0.15s;
+}
+.input:focus {
+  border: 1.5px solid #3479ff;
+  background: #eef4ff;
+}
